@@ -1,12 +1,18 @@
 *{
-    margin: 25px;
+    margin: 30px;
     padding: 0;
 }
 body{
     border: 2px solid #727272;
 }
+#pricing{
+    font-size: 70px;
+}
 #texto-info{
-    font-size: 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn_boton{
     align-items: center;
@@ -39,5 +45,28 @@ body{
 }
 #free, #pro, #enterprise{
     font-size: 50px;
-    font-weight: bold
+    font-weight: bold;
+    /*border: 2px solid #efefef;*/
+}
+.specs{
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+
+@media screen and (max-width: 1020px){
+    #texto-info{
+        font-size: 25px;
+    }
+    .boton{
+        font-size: 20px;
+    }
+    .cost, #free, #pro, #enterprise{
+        font-size: 35px;
+    }
+    .span{
+        font-size: 20px;
+    }
+    .boton{
+        padding: 25px;
+    }
 }
