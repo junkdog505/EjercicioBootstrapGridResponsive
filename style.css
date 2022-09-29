@@ -1,0 +1,43 @@
+*{
+    margin: 25px;
+    padding: 0;
+}
+body{
+    border: 2px solid #727272;
+}
+#texto-info{
+    font-size: 20px;
+}
+.btn_boton{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    padding: 20px 100px;
+    border: 2px solid #1b75de;
+    color:#fdfdfd;
+    background-color: #1b75de;
+    font-size: 25px;
+    border-radius: 15px;
+}
+.boton:hover{
+    background-color: #fdfdfd;
+    transition: 0.5s;
+    color: #1b75de;
+}
+
+.cost{
+    font-size: 60px;
+    font-weight: bold;
+}
+.span{
+    color: #898a8c;
+    margin-left: 2px;
+    font-size: 40px;
+    font-weight: normal;
+}
+#free, #pro, #enterprise{
+    font-size: 50px;
+    font-weight: bold
+}
